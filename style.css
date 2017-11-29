@@ -1,21 +1,20 @@
 /*
 * multi-line comment
 */
-p{ line-height: 1em; font-size: 20px;color: black;font-style:italic;}
+p{ line-height: 3.5em; font-size: 18px;color: black;font-style:italic;}
 h1, h2, h3, h4{
     color: black;
 	font-weight: normal;
 	line-height: 1.1em;
-	margin: 0 0 .5em 0;
+	margin: 0 0 -1.5em 0;
 }
-h1{ font-size: 35px;text-decoration: none;text-align: center;font-family:cursive; font-style:italic;}
-h2{ font-size: 30px; }
+h1{ font-size: 20px;text-decoration: none;text-align: center;font-family:cursive; font-style:italic;}
+h2{ font-size: 20px; }
 a{
 	color: black;
 	text-decoration: none;
 }
-	a:hover,
-	a:active{ text-decoration: underline; }
+	
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
@@ -27,10 +26,11 @@ body{
 
 /* or on different lines like below */
 #logo{
-	width: 65%;
+	width: 60px;
 	margin-top: 5px;
 	font-family: georgia;
-	display: inline-block;
+	display:inline;
+    
     
 }
 /* but try and be as concise as possible */
@@ -44,17 +44,19 @@ body{
 		#nav ul li{
 			display: inline-block;
 			height: 52px;
+            
 		}
 			#nav ul li a{
 				padding: 20px;
 				
-				color: black;
-			}
-			#nav ul li a:hover{
+                color: black;}
+
+			
+			#nav  li a:hover{
 				background-color: rgba(255, 99, 71, 0.4);
-				box-shadow: 0px 1px 1px #666;
+				
 			}
-			#nav ul li a:active{ background-color: rgba(255, 99, 71, 0.6); }
+			#nav  li a:active{ background-color: rgba(255, 99, 71, 0.6); }
 
 #content{
 	margin: 30px 0;
